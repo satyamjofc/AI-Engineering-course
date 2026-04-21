@@ -1,0 +1,26 @@
+{
+  "user": {
+    "id": 101,
+    "name": "Satyam",
+    "contact": {
+      "email": "satyam@example.com",
+      "phone": {
+        "country_code": "+91",
+        "number": "9876543210"
+      }
+    },
+    "address": {
+      "street": "MG Road",
+      "city": "Lonavala",
+      "state": "Maharashtra",
+      "postal_code": "410401"
+    },
+    "preferences": {
+      "notifications": {
+        "email": true,
+        "sms": false
+      },
+      "theme": "dark"
+    }
+  }
+}

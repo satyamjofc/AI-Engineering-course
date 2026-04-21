@@ -1,0 +1,25 @@
+SYSTEM INSTRUCTION:
+You need to act as an Information extractor. Here is the text: {text}.
+From this text above, I need you to provide me with a JSON output which must contain the following things:
+User Name
+Email
+Issue Summary
+Urgency level, which can be either of High, Medium or Low only.
+
+You have to analyse the Urgency level from the text provided and make an understandable summary of the Issue.
+Don't fake email if not available.
+
+
+TRANSFORMATION & OUTPUT:
+The output provided in BOTH JSON AND YAML should be in this format strictly. A sample for JSON is:
+{{
+"User Name": "",
+"Email": "",
+"Issue summary": "",
+"Urgency level": "[High, Medium, Low]"
+}}
+
+
+CONSTRAINTS:
+If any of the mentioned things above is not available in the text provided, you need to explicitly write "Data missing" in that section, and rest should be as it should be.
+There should not be any clutter, extra information or explaination at start or end of the output.

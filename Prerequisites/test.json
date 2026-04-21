@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Satyam",
+        "age": 23,
+        "tech": "Python",
+        "college": "ADIT"
+    },
+    {
+        "name": "Mukesh",
+        "age": 25,
+        "tech": "MERN",
+        "college": "GCET"
+    },
+    {
+        "name": "Anish",
+        "age": 21,
+        "tech": "UIUX",
+        "college": "BVM"
+    }
+]
