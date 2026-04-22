@@ -1,0 +1,1 @@
+These are my assignments for AI Engineering course.
